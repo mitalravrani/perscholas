@@ -7,7 +7,10 @@
 .title{
     text-align:center;
     margin:2em;
+    
+    
 }
+
 .topRow,.bottomRow{
     display:flex;
     height:32vh;
@@ -15,16 +18,16 @@
     
 }
 .txter{
-    height:6vh;
+    height:10vh;
     display:flex;
     justify-content: space-evenly;
 }
 .say{
     border:solid purple;
     text-align:center;
-    background-color:pink;
+    background-color:rgb(50, 50, 105);
     color:white;
-    height:23px;
+    height:35px;
     width:30%;
 }
 .section{
