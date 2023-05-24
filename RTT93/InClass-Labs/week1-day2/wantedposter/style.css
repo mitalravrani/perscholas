@@ -1,0 +1,56 @@
+body{
+    padding-left: 12%;
+    padding-right: 12%;
+    }
+    .container1{
+      width: 90%;
+      height:500px;
+      background-color: yellow;
+      border-color: red;
+      border-spacing: 2pt;
+      border-style: dashed;
+    }
+    .header1{
+      height: 75px;
+      text-align: center;
+    }
+    .header2{
+      font-size: 40pt;
+      font-style: bold;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
+    }
+    .title1{
+      height: 75px;
+      text-align: center;
+    }
+    .title2{
+      font-size: 14pt;
+      font-style: bold;
+      font-family: Arial, Helvetica, sans-serif
+    }
+
+    .image1{
+     border: solid brown;
+     height: 150px ;
+     width: 80%;
+     
+     
+    }
+ #pic1 {
+    width: 100px;
+    height: 150px;
+ }
+ #message2{
+  font-size: 12pt;
+  font-style: bold;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#footer2{
+  font-size: 20pt;
+  font-style: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
