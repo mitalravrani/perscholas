@@ -1,10 +1,10 @@
 body{
-    padding-left: 12%;
-    padding-right: 12%;
+     padding-left: 12%;
+   
     }
     .container1{
-      width: 90%;
-      height:500px;
+      width: 80%;
+      height:600px;
       background-color: yellow;
       border-color: red;
       border-spacing: 2pt;
@@ -31,15 +31,19 @@ body{
     }
 
     .image1{
-     border: solid brown;
+     /*border: solid brown;*/
      height: 150px ;
      width: 80%;
+     border-radius: 50%;
      
      
     }
  #pic1 {
     width: 100px;
     height: 150px;
+    border:solid black;
+    border-radius:50%;
+    margin-left:50%;
  }
  #message2{
   font-size: 12pt;
