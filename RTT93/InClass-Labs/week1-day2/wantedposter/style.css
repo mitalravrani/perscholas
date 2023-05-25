@@ -1,31 +1,33 @@
 body{
      padding-left: 12%;
+     background-color:black;
+    }
    
-    }
     .container1{
+      border: dashed red;
+      border-width:7px;
       width: 80%;
-      height:600px;
+      height:500px;
       background-color: yellow;
-      border-color: red;
-      border-spacing: 2pt;
-      border-style: dashed;
-    }
-    .header1{
-      height: 75px;
-      text-align: center;
-    }
+      margin:3em;
+      }
+
     .header2{
-      font-size: 40pt;
       font-style: bold;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      
+      margin:.5em;
+      text-decoration: underline;
+      font-size:52px;
+      text-align:center;
+      height: 50px;
     }
     .title1{
       height: 75px;
       text-align: center;
+      font-style: 52px;
     }
     .title2{
-      font-size: 14pt;
+      font-size: 20pt;
       font-style: bold;
       font-family: Arial, Helvetica, sans-serif
     }
@@ -34,22 +36,32 @@ body{
      /*border: solid brown;*/
      height: 150px ;
      width: 80%;
-     border-radius: 50%;
+     border-radius: 60%;
      
      
     }
  #pic1 {
-    width: 100px;
-    height: 150px;
+    width: 140px;
+    height: 160px;
     border:solid black;
     border-radius:50%;
     margin-left:50%;
  }
+ 
  #message2{
-  font-size: 12pt;
+  font-size: 13pt;
   font-style: bold;
   font-family: sans-serif;
   text-align: center;
+  
+}
+
+#message3{
+  font-size: 13pt;
+  font-style: bold;
+  font-family: sans-serif;
+  text-align: center;
+  color:red
 }
 
 #footer2{
@@ -57,4 +69,6 @@ body{
   font-style: bold;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
+  color: brown;
+  text-decoration: underline;
 }
