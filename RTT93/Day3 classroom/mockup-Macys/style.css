@@ -1,25 +1,156 @@
 body{
     font-family:serif;
+    
 }
 .mainContainer{
     border:solid black;
     height:600px;
     border-width:0.1px;
-   /* display:flex;*/
-    justify-content: space-between;
+   /* justify-content: space-between; */
     background-color:lightgray;
 }
 
 .signInContainer{
-     border:solid red; 
-     height: 60px;
+     /*border:solid red; */
+     margin-top: 10px;
+     margin-left: 10px;
+     height: 40px;
      display:flex;
 }
+.signInLeft{
+    /* border:solid red; 
+    display:flex;*/
+    width: 70%;
+}
+
+.signInRight{
+    /* border:solid red; 
+    display:flex;*/
+    width: 30%;
+    align-content: center;
+    display:flex;
+    justify-content: space-around;
+}
+.textr{
+    font-family: sans-serif;
+    font-size: 9pt;
+    color: black;
+}
+
 .logoContainer{
-    border:solid blue; 
-     height: 70px;
-     display:flex;
+   /*border:solid blue;*/ 
+    height: 14%;
+    align-content: center;
+    display:flex;
+    justify-content: space-around;
 }
+.iconContainer{
+    /* border:solid red; 
+    display:flex;*/
+    width: 55%;
+}
+.logo{
+    /* border:solid pink; */
+    margin-left:10px;
+    height:100%; 
+}
+.logo:hover{
+    /* border:solid pink; */
+    background-color: yellowgreen;
+}
+
+.themeContainer{
+    /*border:solid blue; */
+    width: 45%;
+    
+     align-content: center;
+     display:flex;
+     justify-content:space-around;
+/*    display:flex; 
+justify-content: space-evenly;
+width:400px;
+padding-left: 60%;*/
+    
+    
+    
+}
+
+.miniSub{
+   /* border:solid pink; */
+    width:100%;
+    align-content: center;
+    display:flex;
+    justify-content: space-around;
+}
+.searchbar{
+    border-radius:20px;
+    margin-top:25px;
+    margin-left:10px;
+    margin-bottom:25px;
+    
+    text-align:left;
+    width:400px;
+}
+
+    
+.symbol{
+border:solid black;
+border-radius:60%;
+border-width:1px;
+padding:1px;
+margin:1.2em;
+height:40%;
+}   
+.symbol:hover{
+    height:40%;
+    background-color:greenyellow;
+}
+
+​
+.topTxt, .bottomTxt{
+    text-align:center;
+}
+
+.theme{
+    text-align:center;
+    padding-top:8px;
+}
+
+.subNav{
+   /* border:solid green; */
+    border-width:0.2px;
+    height:40px;
+    margin:1px;
+   /* display:flex;
+    justify-content: space-around;*/
+   
+}
+
+​
+#flexer{
+    /*display:flex;
+    justify-content: space-evenly;
+    width:100%;*/
+    margin:2em;
+}
+.menu{
+     margin-top:10px;
+     font-family: arial;
+     font-weight: bold;
+     font-size: 12pt;
+     color: black;
+     text-decoration: underline;
+   /* 
+   border: solid red;
+   display:flex; */
+}
+
+.menu:hover {
+    background-color:lime; 
+    color:red;
+    font-style: italic;
+}
+
 .menuContainer{
     border:solid green;
     border-width:0.2px;
@@ -28,99 +159,19 @@ body{
     justify-content: space-around;
 }
 .savingContainer{
-    border:solid orange; 
-     height:100px;
+ /*   border:solid orange; */
+     height:120px;
      display:flex;
      justify-content:center;
 }
  .imageContainer{
-    border:solid blue; 
+    /*border:solid blue;*/ 
      height: 480px;
     /* display:flex;*/
 }
 .footerContainer{
-    border:solid red; 
+/*    border:solid red; */
      height: 140px;
      /* display:flex;*/
 }
 
-.iconContainer{
-    /* border:solid red; */
-    display:flex;
-}
-
-.themeContainer{
-   /*  border:solid blue; */
-    display:flex;
-    padding-left: 60%;
-    justify-content: space-evenly;
-    width:400px;
-}
-
-.logo{
-    /* border:solid pink; */
-    margin:1px;
-    height:60px;
-    
-}
-.theme{
-    text-align:center;
-    padding-top:6px;
-}
-
-.subNav{
-    border:solid green;
-    border-width:0.2px;
-    height:60px;
-    display:flex;
-    justify-content: space-around;
-    
-}
-.miniSub{
-     border:solid pink; 
-     width:90%;
-     align-content: center;
-}
-​
-#flexer{
-    display:flex;
-    justify-content: space-evenly;
-    padding-top:2px;
-    width:100%;
-}
-.menu{
-    margin-top:1px;
-    display:flex;
-}
-.searchbar{
-    border-radius:22px;
-    margin-top:19px;
-    margin-left:10px;
-    text-align:center;
-    width:200px;
-}
-
-​
-.topTxt, .bottomTxt{
-    text-align:center;
-}
-.symbol{
-    border:solid black;
-    border-radius:50%;
-    border-width:.2px;
-    padding:3px;
-    }
-    
-.symbol{
-border:solid black;
-border-radius:50%;
-border-width:.2px;
-padding:3px;
-}
-.symbol{
-    height:30px;
-}
-.symbol:hover{
-    height:30px;
-    background-color:lime;
-}
