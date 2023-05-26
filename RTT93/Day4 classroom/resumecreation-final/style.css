@@ -63,6 +63,10 @@
     margin-left:100px;
     margin-top:10px;
 }
+.me:hover{
+    background-color:yellowgreen; 
+    text-decoration: line-through;
+}
 
 .row{
     border:solid grey;
@@ -75,20 +79,21 @@
     font-size:16px;
     font-family: sans-serif;
     width:80%;  
-    margin-top: 5px;   margin-left: 10%;
+    margin-top: 5px;   
+    margin-left: 10%;
 
  }
  .icon{
      border:solid black;
-     border-width:.2px;
+     border-width:.5px;
      border-radius:50%;
-     height:20px;
-     width:20px;
+     height:25px;
+     width:25px;
  }
  
 .icon:hover{
-    height:20px;
-    background-color:lime;
+   /* height:30px;*/
+    background-color:yellowgreen;
 }
 
 .skillsContainer{
