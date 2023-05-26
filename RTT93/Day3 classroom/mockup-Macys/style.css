@@ -1,0 +1,126 @@
+body{
+    font-family:serif;
+}
+.mainContainer{
+    border:solid black;
+    height:600px;
+    border-width:0.1px;
+   /* display:flex;*/
+    justify-content: space-between;
+    background-color:lightgray;
+}
+
+.signInContainer{
+     border:solid red; 
+     height: 60px;
+     display:flex;
+}
+.logoContainer{
+    border:solid blue; 
+     height: 70px;
+     display:flex;
+}
+.menuContainer{
+    border:solid green;
+    border-width:0.2px;
+    height:60px;
+    display:flex;
+    justify-content: space-around;
+}
+.savingContainer{
+    border:solid orange; 
+     height:100px;
+     display:flex;
+     justify-content:center;
+}
+ .imageContainer{
+    border:solid blue; 
+     height: 480px;
+    /* display:flex;*/
+}
+.footerContainer{
+    border:solid red; 
+     height: 140px;
+     /* display:flex;*/
+}
+
+.iconContainer{
+    /* border:solid red; */
+    display:flex;
+}
+
+.themeContainer{
+   /*  border:solid blue; */
+    display:flex;
+    padding-left: 60%;
+    justify-content: space-evenly;
+    width:400px;
+}
+
+.logo{
+    /* border:solid pink; */
+    margin:1px;
+    height:60px;
+    
+}
+.theme{
+    text-align:center;
+    padding-top:6px;
+}
+
+.subNav{
+    border:solid green;
+    border-width:0.2px;
+    height:60px;
+    display:flex;
+    justify-content: space-around;
+    
+}
+.miniSub{
+     border:solid pink; 
+     width:90%;
+     align-content: center;
+}
+​
+#flexer{
+    display:flex;
+    justify-content: space-evenly;
+    padding-top:2px;
+    width:100%;
+}
+.menu{
+    margin-top:1px;
+    display:flex;
+}
+.searchbar{
+    border-radius:22px;
+    margin-top:19px;
+    margin-left:10px;
+    text-align:center;
+    width:200px;
+}
+
+​
+.topTxt, .bottomTxt{
+    text-align:center;
+}
+.symbol{
+    border:solid black;
+    border-radius:50%;
+    border-width:.2px;
+    padding:3px;
+    }
+    
+.symbol{
+border:solid black;
+border-radius:50%;
+border-width:.2px;
+padding:3px;
+}
+.symbol{
+    height:30px;
+}
+.symbol:hover{
+    height:30px;
+    background-color:lime;
+}
