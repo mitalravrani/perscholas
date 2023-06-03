@@ -1,0 +1,51 @@
+body{
+    background-color:black; 
+ }
+ .posterContainer{
+     border: dotted red;
+     border-width:8px;
+     height:750px;
+     margin:3em;
+     background-color:yellow;
+     
+ }
+ .title{
+     text-align:center;
+     margin:.5em;
+     text-decoration: underline;
+     font-size:52px;
+ }
+ .info{
+     font-size:28px;
+     text-align:center;
+ }
+ .robot{
+     border:solid black;
+     border-radius:50%;
+     margin-left:25%;
+ }
+ .description{
+     border:solid black;
+     color:black;
+     margin:1em;
+     /* background-image:url('https://media.tenor.com/a-DsT_e4GSQAAAAM/hi-hello.gif'); */
+     background-size:cover;
+ }
+ .dsc{
+     margin:12px;
+     font-size:22px; 
+ }
+ .contactInfo{
+     font-size:28px;
+     text-align:center;
+     color:red;
+     margin:1em;
+ }
+ .payola{
+     border:dotted green;
+     margin:.5em;
+     text-align:center;
+     color:green;
+     font-size:40px;
+ }
+ 

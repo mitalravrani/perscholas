@@ -1,0 +1,50 @@
+.navbutton{
+    border: solid black;
+    height=200px;
+    width= 400px;
+    background-color: aliceblue;
+}
+
+
+ 
+.subNav{
+    border:solid green; 
+    background-color: grey;
+     border-width:0.2px;
+     height:300px;
+     margin:1px;
+    /* display:flex;
+     justify-content: space-around;*/
+    
+ }
+ 
+
+ .miniSub{
+    border:solid pink; 
+    background-color: aliceblue;
+     width:100%;
+     align-content: center;
+     display:flex;
+     justify-content: space-around;
+     height:100%;
+ }
+  ​
+ #flexer{
+     /*display:flex;
+     justify-content: space-evenly;
+     width:100%;*/
+     margin:1em;
+ }
+ .menu{
+
+      margin-top:50px;
+      font-family: arial;
+      font-weight: bold;
+      font-size: 30pt;
+      color: black;
+      text-decoration: underline;
+    
+    border: solid red;
+   /* display:flex; */
+ }
+ 

@@ -1,0 +1,50 @@
+.comicContainer{
+    border:solid black;
+    background-color: lightgray;
+    border-width:3px;
+    padding: .1em;
+}
+
+.title{
+    border-color: solid black;
+    text-align:center;
+    margin: 0.2em;
+    font-size: 25pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red; 
+}
+
+.topRow,.bottomRow{
+    display:flex;
+    height:32vh;
+    justify-content: space-evenly;
+    
+}
+.texter{
+    height:10vh;
+    display:flex;
+    justify-content: space-evenly;
+}
+.say{
+    border:solid purple;
+    text-align:center;
+    background-color:rgb(50, 50, 105);
+    color:white;
+    height: 20px;
+    width:30%;
+    padding-top: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.section{
+    border:solid grey;
+    width:30%;
+}
+.fillerPic{
+    width:100%;
+    height:100%;
+}
+​
+#videoPosts{
+    border:solid green
+}

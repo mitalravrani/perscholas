@@ -1,0 +1,81 @@
+{
+    box-sizing: border-box;
+}
+body {
+     
+    background: rgb(152, 156, 152);
+}
+.calculator {
+    border:solid black;
+    margin:1em;
+    height:62vh;
+    padding-top:1.5em;
+    border-radius:22px;
+    background-color:gray
+}
+.screen {
+    border: solid black;
+    background: gray (184, 238, 184);
+    height: 90px;
+    margin: 90px,30px,30px,30px;
+    
+}
+.button {
+    
+    /* border-width:.2px; */
+    width:20%;
+    border-radius:22px;
+    text-align:center;
+    font-size:42px;
+    padding-top:22px;
+    
+}
+.buttonContainer {
+    margin: 30px;
+}
+.nums:hover{
+    border:solid black;
+    width:20%;
+    border-radius:22px;
+    text-align:center;
+    font-size:42px;
+    padding-top:22px;
+    background-color:green;
+    color:white;
+}
+.row1 {
+    border: solid pink;
+    border-width:.2px;
+    margin:1em;
+    height: 8vh;
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+.row2 {
+    border: solid blue;
+    border-width:.2px;
+    margin:1em;
+    height:8vh;
+    display:flex;
+    justify-content: space-evenly;
+}
+.row3 {
+    border: solid purple;
+    border-width:.2px;
+    margin:1em;
+    height:8vh;
+    display:flex;
+    justify-content: space-evenly;
+}
+.row4 {
+    border: solid white;
+    border-width:.2px;
+    margin:1em;
+    height:8vh;
+    display:flex;
+    justify-content: space-evenly;
+}
+.title{
+    text-align:center;
+}

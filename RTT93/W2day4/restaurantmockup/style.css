@@ -1,0 +1,23 @@
+.main{
+  border:solid black;
+  margin:1em;
+  height:22vh;
+  display:flex;
+  justify-content: space-between;
+}
+.item{
+  margin:1em;
+}
+.title{
+  text-align:center;
+  color:peru;
+}
+button{
+  height:35px;
+  margin:1em;
+  width:150px;
+}
+#one{
+  background-color:blue;
+  color:white;
+}
