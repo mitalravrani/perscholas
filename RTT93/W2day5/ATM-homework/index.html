@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Mital ATM</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" async defer></script>
+</head>
+<body>
+    <!-- mainContainer -->
+    <div class="mainContainer">
+        <!--atmheaderContainer-->
+        <div class="atmHeader">ATM</div>
+        <!-- screenContainer -->
+        <div class="screenContainer">
+            <!-- leftScreenKey -->
+            <div class="leftScreenKey">
+                <div class="screenKey" >Deposit</div>
+                <div class="screenKey" >Withdrawal</div>
+                <div class="screenKey" >Fast Cash</div>
+                <div class="screenKey" >Balance Enquiry</div>
+            </div>
+            <!-- screen -->
+            <div class="screen"> </div>
+
+            <!-- rightScreenKey -->
+            <div class="rightScreenKey">
+                <div class="screenKey" >Language</div>
+                <div class="screenKey" >Transfer</div>
+                <div class="screenKey" >Pin change</div>
+                <div class="screenKey" >Help</div>
+            </div>
+        </div>
+        <!-- cardContainer -->
+        <div class="cardContainer">
+            <img src="https://image.shutterstock.com/image-vector/insert-atm-card-credit-slot-260nw-1940138038.jpg"; alt="test";title="test"; height="30px"
+            ; width="150px">
+
+            <img src="https://www.usatoday.com/gcdn/-mm-/de07932981495d310eb5b3acdc83c8ce034b3bcf/c=131-103-1451-1863/local/-/media/2016/07/18/USATODAY/USATODAY/636044635469588890-ThinkstockPhotos-464946419.jpg"; alt="test";title="test"; height="36px";width="150px">
+            
+            
+        </div>
+        <!-- pinContainer -->
+        <div class="pinContainer">
+            <!-- pinkeyContainer -->
+            <div class="pinKeyContainer">
+                <div class="pinRow">
+                    <div class="key" onclick="uploadToScreen('1')" >1-qz</div>
+                    <div class="key" onclick="uploadToScreen('2')">2-abc</div>
+                    <div class="key" onclick="uploadToScreen('3')" >3-def</div>
+                    <div class="spkey1" onclick="uploadToScreen('Cancel')" >Cancel</div>
+                  </div>
+                  <div class="pinRow">
+                    <div class="key" onclick="uploadToScreen('4')">4-ghi</div>
+                    <div class="key" onclick="uploadToScreen('5')">5-jkl</div>
+                    <div class="key" onclick="uploadToScreen('6')">6-mno</div>
+                    <div class="spkey2" onclick="clearScreen()">Clear</div>
+                  </div>
+                  <div class="pinRow">
+                    <div class="key" onclick="uploadToScreen('7')">7-prs</div>
+                    <div class="key" onclick="uploadToScreen('8')">8-tuv</div>
+                    <div class="key" onclick="uploadToScreen('9')">9-wxy</div>
+                    <div class="spkey3" onclick="uploadToScreen('Enter')">Enter</div>
+                  </div>
+                  <div class="pinRow">
+                    <div class="key" onclick="uploadToScreen()"></div>
+                    <div class="key" onclick="uploadToScreen('0')">0</div>
+                    <div class="key" onclick="uploadToScreen()"></div>
+                    <div class="key" onclick="uploadToScreen()"></div>
+                  </div>
+              
+            </div>
+        </div>
+    </div>
+</body>
+</html>

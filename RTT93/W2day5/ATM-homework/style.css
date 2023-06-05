@@ -1,0 +1,265 @@
+.body{
+    padding:10em;
+}
+.mainContainer{
+    border:solid black;
+    margin:1em;
+    height: 600px;
+    width: 60%;
+    padding-top:.5em;
+    border-radius:0px;
+    background-color:rgb(94, 103, 108);
+    margin-left: 20% ;  
+}
+.atmHeader{
+    border:solid black;
+    margin:0.5em;
+    height:8%;
+    width: 95%;
+    padding-top:2px;
+    border-radius:0px;
+    background-color:rgb(67, 190, 247);
+    margin-left: 2%;
+    text-align:center;
+    
+    font-size: 30px; */
+}
+
+.screenContainer{
+    border:solid red;
+    margin: 0.5em;
+    height: 40%;
+    width: 95%;
+    padding-top: 2px;
+    border-radius:0px;
+    background-color: rgb(17, 243, 17);
+    margin-left: 2%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.leftScreenKey{
+    border:solid black;
+    margin: 3px;
+    height:80%;
+    width: 15%;
+    border-radius:0px;
+    margin-top: 3%;
+    background-color:rgb(198, 206, 210);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.screen{
+    border:solid black;
+    margin: 3px;
+    height: 95%;
+    width: 70%;
+    border-radius: 0px;
+    background-color:rgb(240, 243, 245);
+}
+.rightScreenKey{
+    border:solid black;
+    margin: 3px;
+    height: 80%;
+    width: 15%;
+    border-radius: 0px;
+    margin-top: 3%;
+    background-color:rgb(198, 206, 210);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.screenKey{
+    border:solid rgb(251, 90, 3);
+    background-color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-width:.5px; 
+    width:95%;
+    height: 15%;
+    border-radius:10px;
+    text-align:center;
+    font-size:12px;
+    padding-top:8px;
+}
+.screenKey:hover{
+    border:solid rgb(251, 90, 3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-width:.5px; 
+    width:100%;
+    height: 15%;
+    border-radius:0px;
+    text-align:center;
+    font-size:12px;
+    padding-top:8px;
+    background-color:greenyellow;
+    color:rgb(53, 3, 236);
+    text-decoration: underline;
+
+}
+
+.cardContainer{
+    border: solid rgb(245, 10, 10);
+    margin: 0.5em;
+    height: 5%;
+    width: 95%;
+    padding-top: 2px;
+    border-radius: 0px;
+    background-color:rgb(111, 192, 229);
+    margin-left: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    
+}
+
+.pinContainer{
+   border:solid rgb(9, 172, 241);
+    margin: 0.5em;
+    height: 200px;
+    width: 95%;
+    border-radius:0px;
+    background-color:rgb(195, 195, 169);
+    margin-left: 2%;
+   
+}
+.pinKeyContainer{
+    border:solid black;
+    margin: 1em;
+    height: 85s%;
+    width: 60%;
+    border-radius:1px;
+    background-color:rgb(198, 206, 210);
+    margin-left: 20%;
+}
+.pinRow{
+    border:solid blue; 
+    border-width:.2px;
+    margin:.5em;
+    height:5vh;
+    display:flex;
+    justify-content:space-evenly;
+}
+.key{
+    border:solid rgb(252, 11, 11);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-width:.2px; 
+    width:20%;
+    border-radius:10px;
+    text-align:center;
+    font-size:12px;
+    padding-top:8px;
+}
+.key:hover{
+    border:solid black;
+    width:20%;
+    border-radius:10px;
+    text-align:center;
+    font-size:12px;
+    padding-top:8px;
+    background-color:greenyellow;
+    color:rgb(53, 3, 236);
+    text-decoration: underline;
+}
+.spkey1{
+    border:solid rgb(19, 243, 49);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-width:.2px; 
+    width:20%;
+    border-radius:10px;
+    text-align:center;
+    font-size:12px;
+    padding-top:8px;
+    background-color: red;
+}
+.spkey1:hover{
+    border:solid black;
+    width:20%;
+    border-radius:10px;
+    text-align:center;
+    font-size:12px;
+    padding-top:8px;
+    background-color:greenyellow;
+    color:rgb(53, 3, 236);
+    text-decoration: underline;
+}
+.spkey2{
+    border:solid rgb(19, 243, 49);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-width:.2px; 
+    width:20%;
+    border-radius:10px;
+    text-align:center;
+    font-size:12px;
+    padding-top:8px;
+    background-color: yellow;
+}
+.spkey2:hover{
+    border:solid black;
+    width:20%;
+    border-radius:10px;
+    text-align:center;
+    font-size:12px;
+    padding-top:8px;
+    background-color:greenyellow;
+    color:rgb(53, 3, 236);
+    text-decoration: underline;
+}
+.spkey3{
+    border:solid rgb(19, 243, 49);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-width:.2px; 
+    width:20%;
+    border-radius:10px;
+    text-align:center;
+    font-size:12px;
+    padding-top:8px;
+    background-color:green;
+}
+.spkey3:hover{
+    border:solid black;
+    width:20%;
+    border-radius:10px;
+    text-align:center;
+    font-size:12px;
+    padding-top:8px;
+    background-color:greenyellow;
+    color:rgb(53, 3, 236);
+    text-decoration: underline;
+}
+
+
+/* .screen{ 
+    border:solid black;
+    background-color: rgb(202, 204, 205);
+    height:3vh;
+    margin:.5em;
+    border-radius:20px;
+    padding:1em;
+    text-align:right;
+    color:rgb(18, 18, 18);
+    font-size:20px;
+    margin-bottom:.5em;
+}
+
+.title{
+    text-align:center;
+    font-family: sans-serif;
+    font-size: 30pt;
+}
+
+.calculatorMain{
+    border:solid black;
+    margin:1em;
+    height:50%;
+    width: 30%;
+    padding-top:1em;
+    border-radius:20px;
+    background-color:rgb(67, 190, 247);
+    margin-left: 35%;
+}
+
+*/
