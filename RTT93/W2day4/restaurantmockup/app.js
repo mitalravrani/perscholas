@@ -55,16 +55,14 @@ let storeLocations = ["Brooklyn","Yonqers","Harlem","Flatbush"]
 ​
 // ----------FUNCTIONS
 // 2ways to write Funcs()
-​
-  // 1. function declaration
+​ // 1. function declaration
       // function whateverName(){
       // }
-​
-  // 2. arrow function
+​  // 2. arrow function
       // const whateverName = () => {
       // }
-​
-​
+
+
       // const getBreakfastItems = () => {            
       //     let items = menu.breakfast.food
       //     let button = document.querySelector('#one')
@@ -73,10 +71,10 @@ let storeLocations = ["Brooklyn","Yonqers","Harlem","Flatbush"]
       //         console.log(mariluz)
       //     })
       // }
-​
+
       
-​
-​
+
+
   const getAnyItem = (theme) =>{ 
       if(theme === "breakfast"){
           console.log(menu.breakfast.food)
