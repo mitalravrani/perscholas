@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>ATM Machine - Jordan </title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" async defer></script>
+</head>
+  <body>
+    <div class="atmContainer">
+      <div class="screen">
+        <div class="title">boDeGa ATM</div>
+        <div class="displayContainer">
+          <div class="btnLeft">
+            <div class="btn" id="a1" onclick="check_balance()"></div>
+            <div class="btn" id="a2" onclick="withdraw()"></div>
+            <div class="btn" id="a3" onclick=""></div>
+          </div>
+          <div class="displayScreen">
+            <div class="hiddenScrn">
+                <div class="slotOne" id="selectora"></div>
+                <div class="slotTwo" id="selectorb"></div>
+            </div>
+            <div class="hiddenScrn">
+                <div class="slotOne" id="selectorc"></div>
+                <div class="slotTwo" id="selectord"></div>
+            </div>
+            <div class="hiddenScrn">
+                <div class="slotOne" id="selectore"></div>
+                <div class="slotTwo" id="selectorf"></div>
+            </div>
+
+          </div>
+          <div class="btnRight">
+            <div class="btn" id="a4" onclick=""></div>
+            <div class="btn" id="a5" onclick="deposit()"></div>
+            <div class="btn" id="a6" onclick=""></div>
+          </div>
+        </div>
+        <div class="cardInsert">
+          <div class="receiptHolder"></div>
+    <div class="cardNsurt" onclick="initProcess()">Insert Card</div>
+        </div>
+        <!-- -----keypad -->
+        <div class="keypad">
+          <div class="row">
+            <div class="key">1</div>
+            <div class="key">2</div>
+            <div class="key">3</div>
+            <div class="key">Cancel</div>
+          </div>
+          <div class="row">
+            <div class="key">4</div>
+            <div class="key">5</div>
+            <div class="key">6</div>
+            <div class="key">Clear</div>
+          </div>
+          <div class="row">
+            <div class="key">7</div>
+            <div class="key">8</div>
+            <div class="key">9</div>
+            <div class="key" onclick="shehroze()">Enter</div>
+          </div>
+          <div class="row">
+            <div class="key"></div>
+            <div class="key">0</div>
+            <div class="key"></div>
+            <div class="key"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+  </body>
+</html>
